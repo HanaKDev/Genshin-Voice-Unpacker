@@ -18,7 +18,7 @@ FOR %%d IN (.\Tools\Wwise-Unpacker\Decoding\*.WAV) DO (DEL /F /Q "%%d")
 
 echo.
 echo.-------------------------------------------------------------
-echo.Unpack finished! Files should be in the 'Output-WAV_%random%' folder  ;-)
+echo.Unpack finished! Files should be in the 'Output-WAV_%num%' folder  ;-)
 
 "%windir%\explorer.exe" /e,"Output-WAV_%num%"
 
